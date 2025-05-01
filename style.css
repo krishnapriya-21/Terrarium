@@ -1,0 +1,151 @@
+
+h1{
+  font-family: sans-serif;
+  font-size: 30px;
+  border-radius: 10px;
+  color: black;
+  text-align: center;
+  background-color:blanchedalmond;
+  animation: fadeIn 2s ease-in-out;
+   
+}
+
+.container{
+
+  background-color: floralwhite;
+  width: 15%;
+  top: 0px;
+  position: absolute;
+  height: 100%;
+  /*z-index: 1;*/
+    
+}
+
+#left-container{
+  left: 0%;
+}
+
+#right-container{
+   
+  right: 0%;
+ }
+
+.plants_holder{  
+
+  height: 13%;
+  position: relative;
+  left: -10px;
+  z-index: 5;
+
+  
+}
+
+.plant{
+ 
+  
+ 
+  position: absolute;
+  max-width: 150%;
+  max-height: 150%;
+  z-index: 6;
+
+}
+
+.jar-walls {
+  
+  height: 78%;
+  width: 60%;
+  background: #d1e1df;
+  
+  border-radius: 1rem;
+  left: 20%;
+  bottom: 2%;
+  position: absolute;
+  
+  
+}
+
+.jar-top{
+  height: 5%;
+  width: 50%;
+  background: #d1e1df;
+  position: absolute;
+  left: 25%;
+  bottom: 80%;
+  opacity: 0.5;
+}
+
+
+.bottom{
+  height: 2%;
+  width: 50%;
+  bottom: 0%;
+  background:#d1e1df ;
+  position: absolute;
+  left: 25%;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+
+.gloss-long{
+  background: #ddfbff;
+  height: 20%;
+  width: 3%;
+  position: absolute;
+  left: 5%;
+  bottom: 20%;
+  border-radius: 2rem;
+  z-index: 1;
+  }
+
+  .gloss-short{
+      height: 5%;
+      width: 3%;
+      position: absolute;
+      background: #ddfbff;
+      bottom: 45%;
+      left: 5%;
+      border-radius: 2rem;
+      z-index: 1;
+  }
+
+
+.soil{
+  height: 5%;
+  width: 60%;
+  background: #3a241d;
+  opacity: 50%;
+  bottom: 2%;
+  left: 20%;
+  border-radius: 0 0 1rem 1rem;
+  position: absolute;
+  z-index: 1;
+}
+
+
+/*body{
+  font-family: Arial, Helvetica, sans-serif;
+}*/
+
+
+/*Transition For Element Dragging*/
+.draggable{
+  transition: top 0.1s ease, left 0.1s ease;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/*Psuedo Class selectors*/
+h1:hover{
+  color:rgb(33, 143, 216);
+}
